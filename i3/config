@@ -191,3 +191,4 @@ bar {
 }
 
 bindsym $mod+x exec --no-startup-id i3lock -i /home/mili/Images/.wallpaper/wallpaper_blur.png
+exec_always --no-startup-id $HOME/.dotfiles/i3/daemons/picom.sh

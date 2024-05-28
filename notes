@@ -1,0 +1,4 @@
+In .profile add
+if [[ "$(tty)" = "/dev/tty1" ]]; then
+	startx "$HOME/dotfiles/X/i3_xinitrc" > /dev/null 2>&1 && exit
+fi
